@@ -31,9 +31,23 @@ All image are resize to (H: 375, W: 1242) to improve parallelism.
 
 
 
+### Training and Validation
+
+| FCN16                                             | FCN32                                             |
+| ------------------------------------------------- | ------------------------------------------------- |
+| ![fcn16_e30_result](\result\fcn16_e30_result.png) | ![fcn32_e30_result](\result\fcn32_e30_result.png) |
+
+
+
 ### Test Result
 
-![test_result](test_result.png)
+|      |                     FCN-16                     |                     FCN-32                      |
+| :--: | :--------------------------------------------: | :---------------------------------------------: |
+| loss |                      1.28                      |                      1.61                       |
+| mIoU |                      0.46                      |                      0.34                       |
+| pIoU | ![fcn16_test_pIoU](result\fcn16_test_pIoU.png) | ![fcn32_test_pIoU](\result\fcn32_test_pIoU.png) |
+
+![test_result](result\test_result.png)
 
 ### Reference
 
